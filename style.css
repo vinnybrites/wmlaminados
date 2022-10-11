@@ -1,0 +1,104 @@
+:root{
+    --cor-transparente: rgba(54, 23, 23, 0.308);
+    --cor-da-fonte: #000000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    color: var(--cor-da-fonte);
+}
+
+.fundo{
+    background-image: url("img/background.png");
+}
+
+header{
+    background-color: var(--cor-transparente);
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li{
+    text-transform: uppercase;
+    list-style: none;
+    margin-left: 1em;
+    display: inline;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+#home{
+    padding: 2em;
+    text-align: center;
+}
+
+#home h2, p{
+    margin-bottom: 1em;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-port{
+    width: 30%;
+    padding: 10px;
+}
+
+#quem-somos{
+    text-align: center;
+}
+
+#quem-somos h2{
+    background-color: var(--cor-transparente);
+    padding: 1em;
+}
+
+.caixa-quem-somos{
+    display: flex;
+    margin: 3em;
+    padding: 2em;
+    background-color: var(--cor-transparente);
+    align-items: center;
+}
+
+.caixa-quem-somos img{
+    width: 20%;
+    padding-right: 3em;
+}
+
+#contato{
+    text-align: center;
+}
+
+#contato h2{
+    background-color: var(--cor-transparente);
+    padding: 1em;
+}
+
+#contato a{
+    text-decoration: none;
+}
+
+#contato img{
+    width: 25px;
+    margin-bottom: 1em;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    margin: 1em;
+}
+
